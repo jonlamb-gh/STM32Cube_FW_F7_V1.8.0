@@ -96,6 +96,8 @@
   ******************************************************************************
   */ 
 
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+
 #include <string.h>
 #include "cmsis_os.h"
 

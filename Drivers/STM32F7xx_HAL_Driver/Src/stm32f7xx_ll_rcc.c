@@ -34,6 +34,8 @@
   */
 #if defined(USE_FULL_LL_DRIVER)
 
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f7xx_ll_rcc.h"
 #ifdef  USE_FULL_ASSERT

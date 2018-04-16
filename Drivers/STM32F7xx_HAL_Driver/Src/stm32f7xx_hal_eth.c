@@ -106,6 +106,9 @@
   */
 
 #ifdef HAL_ETH_MODULE_ENABLED
+
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+
 #if defined (ETH)
 
 /* Private typedef -----------------------------------------------------------*/

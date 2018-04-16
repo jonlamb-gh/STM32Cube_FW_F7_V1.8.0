@@ -137,6 +137,8 @@
 
 #ifdef HAL_TIM_MODULE_ENABLED
 
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
